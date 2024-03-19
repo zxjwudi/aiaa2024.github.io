@@ -1,0 +1,181 @@
+body {
+  padding:50px;
+  font:16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#000;
+  font-weight:300;
+}
+h1, h2, h3, h4, h5, h6 {
+  color:#222;
+  margin:0 0 20px;
+}
+p, ul, ol, table, pre, dl {
+  margin:0 0 20px;
+}
+h1, h2, h3, h4 {
+  line-height:1.1;
+}
+h1 {
+  font-size: 200%;
+}
+h2 {
+  font-size: 125%;
+  color:#393939;
+}
+h3 {
+  font-size: 105%;
+  color:#494949;
+}
+h4, h5, h6 {
+  font-size: 100%;
+  font-style: italic;
+  color:#494949;
+}
+a {
+  color:#39c;
+  font-weight:400;
+  text-decoration:none;
+}
+a:hover {
+  color:#069;
+}
+a small {
+  font-size:11px;
+  color:#777;
+  margin-top:-0.6em;
+  display:block;
+}
+a:hover small {
+  color:#777;
+}
+.wrapper {
+  width:850px;
+  margin:0 auto;
+}
+blockquote {
+  border-left:1px solid #e5e5e5;
+  margin:0;
+  padding:0 0 0 20px;
+  font-style:italic;
+}
+code, pre {
+  font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, monospace;
+  color:#333;
+  font-size:12px;
+}
+pre {
+  padding:8px 15px;
+  background: #f8f8f8;  
+  border-radius:5px;
+  border:1px solid #e5e5e5;
+  overflow-x: auto;
+}
+table {
+  width:100%;
+  border-collapse:collapse;
+}
+th, td {
+  text-align:left;
+  padding:5px 10px;
+  border-bottom:1px solid #e5e5e5;
+}
+dt {
+  color:#444;
+  font-weight:700;
+}
+th {
+  color:#444;
+}
+img {
+  max-width:100%;
+}
+header {
+  margin: 0;
+  padding: 0;
+}
+header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0px 0px 10px 0px;
+}
+header ul li {
+  display: inline-block;
+  width: 7em;
+}
+header li + li{
+  text-align: center;
+}
+header ul a {
+  color: #555;
+}
+header ul li.active a {
+  font-weight: 700;
+}
+header ul a:hover {
+  color: #000;
+  font-weight: 700;
+}
+.logo {
+  float: right;
+}
+speaker a {
+  color: #555;
+}
+speaker a:hover {
+  color: #000;
+  font-weight: 700;
+}
+section {
+  text-align: justify;
+}
+footer p.credit {
+  float: left;
+}
+footer p.sponsors {
+  float: right;
+}
+footer .logo {
+  margin-left: 10px;
+}
+strong {
+  color: #222;
+  font-weight:700;
+}
+small {
+  font-size:13px;
+}
+hr {
+  border:0;
+  background:#e5e5e5;
+  height:1px;
+  margin:0 0 20px;
+}
+footer {
+  color: #aaa;
+  font-size:80%;
+}
+footer a, footer a:hover {
+  color: #aaa;
+  text-decoration: underline;
+}
+strong a {
+    font-weight: 600;
+}
+table .time {
+    width: 100px;
+}
+table .speaker {
+    text-align:center;
+    min-width:200px;
+}
+table .oddrow {
+    background:#f0f0f0;
+}
+tr {
+    padding-top:10px;
+    padding-bottom:10px;
+}
+td {
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-right:20px;
+}
